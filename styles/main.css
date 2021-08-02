@@ -1,0 +1,437 @@
+/* GLOBALES*/
+* {
+  font-family: "Roboto";
+  width: 960px;
+  position: absolute;
+}
+/* main{
+    padding:2%
+} */
+h2 {
+  font-size: 36px;
+  line-height: 42, 19px;
+}
+section {
+  height: 525px;
+  width: 960px;
+}
+/* PORTADA */
+.seccion-portada {
+  min-height: 100%;
+  background-image: url("/images/Portada.jpg");
+}
+.codigo {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 36px;
+  color: white;
+}
+.contenedor-nombre {
+  background-color: rgba(114, 153, 254, 0.5);
+  width: 365px;
+  height: 117px;
+  position: absolute;
+  top: 270px;
+  left: 52px;
+  border: 1px solid #37aafa;
+}
+.nombre {
+  font-size: 36px;
+  line-height: 42.19px;
+  width: 327px;
+  height: 84px;
+  color: white;
+  margin: 16px 22px 17px 16px;
+}
+
+/* MY SKILLS */
+.seccion-skills {
+  /* min-height: 100%;  */
+  background-color: #7299fe;
+  position: absolute;
+  width: 960px;
+  height: 424px;
+  top: 525px;
+}
+.titulo-my-skills {
+  text-align: center;
+  margin-top: 27px;
+  color: white;
+  font-size: 36px;
+}
+/* HTML */
+.contenedor-html {
+  width: 364px;
+  height: 117px;
+  top: 97px;
+  left: 104px;
+}
+.etiqueta-html {
+  color: white;
+}
+.tabla-html {
+  top: 20px;
+  margin: 1px;
+}
+.fila-negra-html {
+  background-color: #000000;
+  width: 268px;
+}
+.fila-blanca {
+  background-color: white;
+  width: 364px;
+}
+/* CSS */
+.contenedor-css {
+  width: 364px;
+  height: 117px;
+  top: 161px;
+  left: 104px;
+}
+.fila-negra-css {
+  background-color: #000000;
+  width: 210px;
+}
+/* ANGULAR */
+.contenedor-angular {
+  width: 364px;
+  height: 117px;
+  top: 229px;
+  left: 104px;
+}
+.fila-negra-angular {
+  background-color: #000000;
+  width: 137px;
+}
+/* FIGMA */
+.contenedor-figma {
+  width: 364px;
+  height: 117px;
+  top: 293px;
+  left: 104px;
+}
+.fila-negra-figma {
+  background-color: #000000;
+  width: 182px;
+}
+/* JAVASCRIPT */
+.contenedor-javascript {
+  width: 364px;
+  height: 117px;
+  top: 97px;
+  left: 492px;
+}
+.fila-negra-javascript {
+  background-color: #000000;
+  width: 237px;
+}
+/* REACT */
+.contenedor-react {
+  width: 364px;
+  height: 117px;
+  top: 161px;
+  left: 492px;
+}
+.fila-negra-react {
+  background-color: #000000;
+  width: 122px;
+}
+/* PYTHON */
+.contenedor-python {
+  width: 364px;
+  height: 117px;
+  top: 229px;
+  left: 492px;
+}
+.fila-negra-python {
+  background-color: #000000;
+  width: 182px;
+}
+/* NODE.JS */
+.contenedor-node {
+  width: 364px;
+  height: 117px;
+  top: 293px;
+  left: 492px;
+}
+.fila-negra-node {
+  background-color: #000000;
+  width: 151px;
+}
+/* SERVICIOS */
+.seccion-servicios {
+  /* min-height: 100%;  */
+  background-color: #fb7171;
+  position: absolute;
+  width: 960px;
+  height: 424px;
+  top: 949px;
+}
+.titulo-servicios {
+  text-align: center;
+  margin-top: 27px;
+  color: white;
+  font-size: 36px;
+}
+/* DISEÑO WEB */
+.contenedor-disenio-web {
+  width: 136px;
+  height: 100px;
+  top: 97px;
+  left: 183px;
+}
+.imagen-vector {
+  height: 42.62px;
+  width: 42.62px;
+  background-image: url(/images/Vector3.jpg);
+  background-repeat: no-repeat;
+  left: 42px;
+}
+.etiqueta-disenio-web {
+  top: 61px;
+  left: 10px;
+  color: white;
+  font-size: 24px;
+}
+/*  DISEÑO UI */
+.contenedor-disenio-ui {
+  width: 136px;
+  height: 100px;
+  top: 262px;
+  left: 183px;
+}
+.etiqueta-disenio-ui {
+  top: 61px;
+  left: 15px;
+  color: white;
+  font-size: 24px;
+}
+/*  DESARROLLO WEB*/
+.contenedor-desarrollo-web {
+  width: 146px;
+  height: 100px;
+  top: 97px;
+  left: 410px;
+}
+.etiqueta-desarrollo-web {
+  top: 61px;
+  left: 0px;
+  color: white;
+  font-size: 24px;
+}
+/*  DISEÑO UX*/
+.contenedor-disenio-ux {
+  width: 136px;
+  height: 100px;
+  top: 262px;
+  left: 410px;
+}
+.etiqueta-disenio-ux {
+  top: 61px;
+  left: 12px;
+  color: white;
+  font-size: 24px;
+}
+/*  DESARROLLO MOBILE*/
+.contenedor-desarrollo-mobile {
+  width: 146px;
+  height: 100px;
+  top: 97px;
+  left: 640px;
+}
+.etiqueta-desarrollo-mobile {
+  top: 61px;
+  left: -15px;
+  color: white;
+  font-size: 24px;
+}
+/*  METODOLOGIAS AGILES */
+.contenedor-metodologia-agiles {
+  width: 146px;
+  height: 100px;
+  top: 262px;
+  left: 640px;
+}
+.etiqueta-metodologia-agiles {
+  top: 61px;
+  left: -20px;
+  color: white;
+  font-size: 24px;
+}
+/* PORTAFOLIO */
+.seccion-portafolio {
+  /* min-height: 100%;  */
+  background-color: #ffd233;
+  position: absolute;
+  width: 960px;
+  height: 424px;
+  top: 1373px;
+}
+.titulo-portafolio {
+  text-align: center;
+  margin-top: 27px;
+  color: white;
+  font-size: 36px;
+}
+.contenedor-portafolio-1 {
+  width: 140px;
+  height: 92px;
+  top: 130px;
+  left: 183px;
+  background: url(/images/Portafolio1.jpg);
+}
+.contenedor-portafolio-2 {
+  width: 140px;
+  height: 92px;
+  top: 130px;
+  left: 334px;
+  background: url(/images/Portafolio2.jpg);
+}
+.contenedor-portafolio-3 {
+  width: 140px;
+  height: 92px;
+  top: 130px;
+  left: 486px;
+  background: url(/images/Portafolio3.jpg);
+}
+.contenedor-portafolio-4 {
+  width: 140px;
+  height: 92px;
+  top: 130px;
+  left: 641px;
+  background: url(/images/Portafolio4.jpg);
+}
+.contenedor-portafolio-5 {
+  width: 140px;
+  height: 92px;
+  top: 236px;
+  left: 182px;
+  background: url(/images/Portafolio5.jpg);
+}
+.contenedor-portafolio-6 {
+  width: 140px;
+  height: 92px;
+  top: 236px;
+  left: 335px;
+  background: url(/images/Portafolio6.jpg);
+}
+.contenedor-portafolio-7 {
+  width: 140px;
+  height: 92px;
+  top: 236px;
+  left: 486px;
+  background: url(/images/Portafolio7.jpg);
+}
+.contenedor-portafolio-8 {
+  width: 140px;
+  height: 92px;
+  top: 236px;
+  left: 641px;
+  background: url(/images/Portafolio8.jpg);
+}
+/* CLIENTES */
+.seccion-clientes {
+  background-color: #3f4e62;
+  position: absolute;
+  width: 960px;
+  height: 258px;
+  top: 1797px;
+}
+.titulo-clientes {
+  text-align: center;
+  margin-top: 27px;
+  color: white;
+  font-size: 36px;
+}
+.contenedor-cliente-1 {
+  width: 178px;
+  height: 69px;
+  top: 91px;
+  left: 70px;
+  background: url(/images/Cliente1.jpg);
+}
+.contenedor-cliente-2 {
+  width: 202px;
+  height: 54px;
+  top: 99px;
+  left: 270px;
+  background: url(/images/Cliente2.jpg);
+}
+.contenedor-cliente-3 {
+  width: 178px;
+  height: 67px;
+  top: 91px;
+  left: 496px;
+  background: url(/images/Cliente3.jpg);
+}
+.contenedor-cliente-4 {
+  width: 194px;
+  height: 67px;
+  top: 92px;
+  left: 700px;
+  background: url(/images/Cliente4.jpg);
+}
+/* CONTACTO */
+.seccion-contacto {
+  background-color: #16a085;
+  position: absolute;
+  width: 960px;
+  height: 578px;
+  top: 2054px;
+}
+.titulo-contacto {
+  text-align: center;
+  margin-top: 27px;
+  color: white;
+  font-size: 36px;
+}
+.contenedor-contacto-nombre {
+  width: 363px;
+  height: 59px;
+  top: 102px;
+  left: 100px;
+}
+.input {
+  width: inherit;
+  height: inherit;
+}
+.contenedor-contacto-apellido {
+  width: 363px;
+  height: 59px;
+  top: 102px;
+  left: 496px;
+}
+.contenedor-contacto-email {
+  width: 363px;
+  height: 59px;
+  top: 194px;
+  left: 100px;
+}
+.contenedor-contacto-telefono {
+  width: 363px;
+  height: 59px;
+  top: 194px;
+  left: 496px;
+}
+.contenedor-contacto-descripcion {
+  width: 759px;
+  height: 112px;
+  top: 289px;
+  left: 100px;
+}
+.contenedor-contacto-enviar {
+  width: 167px;
+  height: 56px;
+  top: 446px;
+  left: 396px;
+  background-color: #233451;
+}
+.boton-enviar {
+  width: inherit;
+  height: inherit;
+  background: #233451;
+  font-size: 18px;
+  font-family: "Roboto";
+  color: white;
+}
