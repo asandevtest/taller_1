@@ -18,7 +18,7 @@ section {
 /* PORTADA */
 .seccion-portada {
   min-height: 100%;
-  background-image: url("/images/Portada.jpg");
+  background-image: url("../images/Portada.jpg"); 
 }
 .codigo {
   font-size: 64px;
@@ -184,7 +184,7 @@ section {
 .imagen-vector {
   height: 42.62px;
   width: 42.62px;
-  background-image: url(/images/Vector3.jpg);
+  background-image: url("../images/Vector3.jpg");
   background-repeat: no-repeat;
   left: 42px;
 }
@@ -279,56 +279,56 @@ section {
   height: 92px;
   top: 130px;
   left: 183px;
-  background: url(/images/Portafolio1.jpg);
+  background: url("../images/Portafolio1.jpg");
 }
 .contenedor-portafolio-2 {
   width: 140px;
   height: 92px;
   top: 130px;
   left: 334px;
-  background: url(/images/Portafolio2.jpg);
+  background: url("../images/Portafolio2.jpg");
 }
 .contenedor-portafolio-3 {
   width: 140px;
   height: 92px;
   top: 130px;
   left: 486px;
-  background: url(/images/Portafolio3.jpg);
+  background: url("../images/Portafolio3.jpg");
 }
 .contenedor-portafolio-4 {
   width: 140px;
   height: 92px;
   top: 130px;
   left: 641px;
-  background: url(/images/Portafolio4.jpg);
+  background: url("../images/Portafolio4.jpg");
 }
 .contenedor-portafolio-5 {
   width: 140px;
   height: 92px;
   top: 236px;
   left: 182px;
-  background: url(/images/Portafolio5.jpg);
+  background: url("../images/Portafolio5.jpg");
 }
 .contenedor-portafolio-6 {
   width: 140px;
   height: 92px;
   top: 236px;
   left: 335px;
-  background: url(/images/Portafolio6.jpg);
+  background: url("../images/Portafolio6.jpg");
 }
 .contenedor-portafolio-7 {
   width: 140px;
   height: 92px;
   top: 236px;
   left: 486px;
-  background: url(/images/Portafolio7.jpg);
+  background: url("../images/Portafolio7.jpg");
 }
 .contenedor-portafolio-8 {
   width: 140px;
   height: 92px;
   top: 236px;
   left: 641px;
-  background: url(/images/Portafolio8.jpg);
+  background: url("../images/Portafolio8.jpg");
 }
 /* CLIENTES */
 .seccion-clientes {
@@ -349,28 +349,28 @@ section {
   height: 69px;
   top: 91px;
   left: 70px;
-  background: url(/images/Cliente1.jpg);
+  background: url("../images/Cliente1.jpg");
 }
 .contenedor-cliente-2 {
   width: 202px;
   height: 54px;
   top: 99px;
   left: 270px;
-  background: url(/images/Cliente2.jpg);
+  background: url("../images/Cliente2.jpg");
 }
 .contenedor-cliente-3 {
   width: 178px;
   height: 67px;
   top: 91px;
   left: 496px;
-  background: url(/images/Cliente3.jpg);
+  background: url("../images/Cliente3.jpg");
 }
 .contenedor-cliente-4 {
   width: 194px;
   height: 67px;
   top: 92px;
   left: 700px;
-  background: url(/images/Cliente4.jpg);
+  background: url("../images/Cliente4.jpg");
 }
 /* CONTACTO */
 .seccion-contacto {
