@@ -184,7 +184,7 @@ section {
 .imagen-vector {
   height: 42.62px;
   width: 42.62px;
-  background-image: url("../images/vector3.jpg");
+  background: url("../images/Vector3.jpg");
   background-repeat: no-repeat;
   left: 42px;
 }
